@@ -2,8 +2,8 @@
  * @Author: WeiJianYe
  * @Date: 2025-10-28 16:45:36
  * @LastEditors: git config Wcacciatori
- * @LastEditTime: 2025-10-28 19:22:43
- * @FilePath: \vuepress-learn\docs\.vuepress\config\themeConfig.ts
+ * @LastEditTime: 2025-10-28 19:55:01
+ * @FilePath: \blog\docs\.vuepress\config\themeConfig.ts
  * @Description: 
  * 
  * Copyright (c) 2025 by Wcacciatori, All Rights Reserved. 
@@ -12,6 +12,7 @@ import { VdoingThemeConfig } from "vuepress-theme-vdoing/types";
 
 export default <VdoingThemeConfig>{
   logo: 'https://s3.bmp.ovh/imgs/2022/12/02/bc7428e3916c3a4c.jpg',
+  base: '/blog/',
   nav: [
     { text: '首页', link: '/' },
     { text: '成电', items: [
