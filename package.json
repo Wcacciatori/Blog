@@ -1,0 +1,27 @@
+{
+  "name": "vuepress-learn",
+  "version": "1.0.0",
+  "description": "学习VuePress用的项目",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs --temp .temp",
+    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
+    "deploy": "npm run docs:build && node ./deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "peterjxl@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-one-click-copy": "^1.0.6"
+  },
+  "dependencies": {
+    "@vue/babel-preset-app": "^4.5.18",
+    "ora": "5.0",
+    "scp2": "^0.5.0",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-theme-vdoing": "^1.12.8"
+  }
+}
