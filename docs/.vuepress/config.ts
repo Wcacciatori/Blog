@@ -2,8 +2,8 @@
  * @Author: WeiJianYe
  * @Date: 2025-10-28 16:45:36
  * @LastEditors: git config Wcacciatori
- * @LastEditTime: 2025-10-28 17:18:04
- * @FilePath: \vuepress-learn\docs\.vuepress\config.ts
+ * @LastEditTime: 2025-10-29 15:40:08
+ * @FilePath: \blog\docs\.vuepress\config.ts
  * @Description: 
  * 
  * Copyright (c) 2025 by Wcacciatori, All Rights Reserved. 
@@ -14,6 +14,7 @@ import plugins from "./config/plugins"
 module.exports = {
   title: 'Heja',
   theme: 'vdoing',
+  base: '/Blog/',
   locales: {
     '/': {
       lang: 'zh-CN'

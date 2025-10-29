@@ -12,7 +12,6 @@ import { VdoingThemeConfig } from "vuepress-theme-vdoing/types";
 
 export default <VdoingThemeConfig>{
   logo: 'https://s3.bmp.ovh/imgs/2022/12/02/bc7428e3916c3a4c.jpg',
-  base: '/Blog/',
   nav: [
     { text: '首页', link: '/' },
     { text: '成电', items: [
