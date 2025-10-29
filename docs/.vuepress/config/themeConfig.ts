@@ -2,7 +2,7 @@
  * @Author: WeiJianYe
  * @Date: 2025-10-28 16:45:36
  * @LastEditors: git config Wcacciatori
- * @LastEditTime: 2025-10-29 14:52:37
+ * @LastEditTime: 2025-10-29 15:07:11
  * @FilePath: \blog\docs\.vuepress\config\themeConfig.ts
  * @Description: 
  * 
@@ -12,7 +12,7 @@ import { VdoingThemeConfig } from "vuepress-theme-vdoing/types";
 
 export default <VdoingThemeConfig>{
   logo: 'https://s3.bmp.ovh/imgs/2022/12/02/bc7428e3916c3a4c.jpg',
-  base: '/',
+  base: '/Blog/',
   nav: [
     { text: '首页', link: '/' },
     { text: '成电', items: [
