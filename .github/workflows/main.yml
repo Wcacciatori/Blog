@@ -10,6 +10,12 @@ on:
   push:
     branches: 
       - main
+      
+# 添加权限配置
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 # 当前流程要执行的任务，可以是多个。[my_first_job]就是一个任务
 jobs:
