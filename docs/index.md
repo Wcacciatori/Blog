@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /amiliya.jpg
+heroImage: /头像.png
 heroText: 因你而在的
 tagline: 永远追寻浪漫与自由
 actionText: 关于我
