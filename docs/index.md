@@ -2,7 +2,7 @@
 home: true
 heroImage: /amiliya.jpg
 heroText: 因你而在的
-tagline: 永远追求浪漫与自由
+tagline: 永远追寻浪漫与自由
 actionText: 关于我
 actionLink: /about.md
 bannerBg: auto
