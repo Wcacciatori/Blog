@@ -14,7 +14,7 @@ import plugins from "./config/plugins"
 module.exports = {
   title: 'Heja',
   theme: 'vdoing',
-  base: '/Blog/',
+  base: '/',
   locales: {
     '/': {
       lang: 'zh-CN'
