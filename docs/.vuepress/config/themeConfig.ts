@@ -1,7 +1,7 @@
 import { VdoingThemeConfig } from "vuepress-theme-vdoing/types";
 
 export default <VdoingThemeConfig>{
-  logo: 'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251029200734947.png',
+  logo: 'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171252440.jpg',
   nav: [
     { text: '首页', link: '/' },
     { text: '成电', items: [
@@ -28,22 +28,23 @@ export default <VdoingThemeConfig>{
   // editLinks: true,
   // editLinkText: '编辑此页',
   bodyBgImg:[
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251029202245101.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164329448.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164310020.png',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164247373.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164210262.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164208077.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164206847.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164205712.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164201471.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164155284.png',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164157525.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164154055.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164152761.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164149226.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164150437.jpg',
-    'https://raw.githubusercontent.com/Wcacciatori/imgs/main/imgs/20251030164140890.jpg'
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428743.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428742.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428741.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428739.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428738.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428737.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428736.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428735.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428734.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428733.png',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428732.png',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428727.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428728.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428730.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428731.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428726.jpg',
+    'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428725.jpg',
   ],
   bodyBgImgOpacity: 0.8,
   bodyBgImgInterval: 8,
