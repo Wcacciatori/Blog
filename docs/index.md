@@ -1,11 +1,12 @@
 ---
 home: true
-heroImage: /头像.png
+heroImage: null
 heroText: 因你而在的
 tagline: 永远追寻浪漫与自由
-actionText: 关于我
+actionText: null
 actionLink: /about.md
-
+pageClass: vdoing-index-class
+bannerBg: /![](https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428733.png)
 # features:
 # - title: 
 #   details:
@@ -15,3 +16,7 @@ actionLink: /about.md
 #   details: 
 footer: todo
 ---
+
+<ClientOnly>
+  <IndexBigImg />
+</ClientOnly>
