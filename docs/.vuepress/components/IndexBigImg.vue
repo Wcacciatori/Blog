@@ -220,15 +220,23 @@
         } else if (hours >= 16 && hours <= 19) {
           div.style.backgroundColor = this.bgTimeColorArray[1];
           addTip(
-            `到黄昏了~~，现在是 ${hours}:${minutes}:${seconds}，该准备吃饭啦🥗🍖~~`,
+            `到黄昏了~~，现在是 ${hours}:${minutes}:${seconds}，干饭时间到🥗🍖~~`,
             "info",
             50,
             4000
           );
-        } else if (hours >= 19 && hours < 24) {
+        } else if (hours >= 19 && hours < 22) {
           div.style.backgroundColor = this.bgTimeColorArray[2];
           addTip(
-            `晚上好呀~~，现在是 ${hours}:${minutes}:${seconds}，该准备洗漱睡觉啦🥱😪~~`,
+            `晚上好！！，现在是 ${hours}:${minutes}:${seconds}，娱乐时间gogogo😁😍~~`,
+            "info",
+            50,
+            4000
+          );
+        } else if (hours >= 22 && hours < 24) {
+          div.style.backgroundColor = this.bgTimeColorArray[3];
+          addTip(
+            `晚上好呀~~，现在是 ${hours}:${minutes}:${seconds}，该准备洗漱睡觉了伙计🥱😪~~`,
             "info",
             50,
             4000
