@@ -47,7 +47,7 @@ export default <VdoingThemeConfig>{
     'https://cdn.jsdelivr.net/gh/Wcacciatori/imgs/imgs/20251030171428725.jpg',
   ],
   bodyBgImgOpacity: 1,
-  bodyBgImgInterval: 8,
+  bodyBgImgInterval: 12,
   lastUpdated: '上次更新', 
 
   indexImg: {

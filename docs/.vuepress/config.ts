@@ -2,7 +2,7 @@
  * @Author: WeiJianYe
  * @Date: 2025-10-28 16:45:36
  * @LastEditors: git config Wcacciatori
- * @LastEditTime: 2025-10-31 19:08:39
+ * @LastEditTime: 2025-11-01 14:50:18
  * @FilePath: \blog\docs\.vuepress\config.ts
  * @Description: 
  * 
@@ -25,6 +25,6 @@ module.exports = {
   plugins,
   markdown: {
     lineNumbers: true,
-    extractHeaders: ["h2", "h3", "h4"]
+    extractHeaders: ["h1","h2", "h3", "h4"]
   }
 }
